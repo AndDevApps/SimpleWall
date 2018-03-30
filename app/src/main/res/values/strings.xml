@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gall</string>
+    <string name="like">Favourite</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="set_wallpaper">SET Wallpaper</string>
+    <string name="todo">TODO</string>
+</resources>

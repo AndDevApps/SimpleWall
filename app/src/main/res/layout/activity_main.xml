@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.gall.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:context=".MainActivity">
+
+        <!-- create a ImageView and Gallery -->
+        <ImageView
+            android:id="@+id/selectedImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="337dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/todo" />
+
+        <Gallery
+            android:id="@+id/simpleGallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:unselectedAlpha="0.80" />
+
+
+        <Button
+            android:id="@+id/set_immage"
+            android:layout_width="213dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/set_wallpaper" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
